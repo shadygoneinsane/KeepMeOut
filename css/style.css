@@ -33,9 +33,32 @@ body {
 h2 {
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: whitesmoke
+  border-bottom-color: whitesmoke;
   margin-bottom: 5px;
   font-size: 64px;
+  background: -webkit-linear-gradient(white, whitesmoke);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  margin-bottom: 5px;
+  font-size: 24px;
+  background: -webkit-linear-gradient(white, whitesmoke);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  margin-bottom: 5px;
+  font-size: 18px;
+  background: -webkit-linear-gradient(white, whitesmoke);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subsubtitle {
+  font-size: 16px;
   background: -webkit-linear-gradient(white, whitesmoke);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -64,7 +87,7 @@ a:hover {
 }
 
 .creds {
-  width: 100%; /* fill the whole width of the screen */
+  width: 100%;
   padding-top: 10px;
   border-top-width: 1px;
   border-top-style: solid;
